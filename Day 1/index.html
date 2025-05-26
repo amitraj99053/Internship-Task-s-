@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container header-container">
+      <div class="logo">✨ Brand</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">&#9776;</div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Creative Landing Page</h1>
+      <p>Your journey to modern web design starts here. Simple. Fast. Beautiful.</p>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>🚀 Fast</h3>
+          <p>Optimized for performance and speed.</p>
+        </div>
+        <div class="feature-card">
+          <h3>💡 Intuitive</h3>
+          <p>User-friendly interfaces for everyone.</p>
+        </div>
+        <div class="feature-card">
+          <h3>📱 Responsive</h3>
+          <p>Looks great on all screen sizes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>We are passionate designers and developers committed to creating simple yet powerful web experiences that delight users and drive success.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+     <h2>Contact Us</h2>
+      <p>We'd love to hear from you. Get in touch!</p>
+       <div class="contact-image">
+        <a href="mailto:info@brand.com"><img src="gmail.png" alt="Gmail image"></a>
+        <a href="https://www.instagram.com/"><img src="instaImg.png" alt="Intagram image"></a>
+        <a href="https://x.com/"><img src="twiterImg.png"  alt="Twitter image"></a>
+        <a href="https://www.youtube.com/"><img src="youtubeImg.png" alt="Youtube image"></a>
+     </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2025 Brand. All rights reserved.</p>
+      <div class="social-links">
+        
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
