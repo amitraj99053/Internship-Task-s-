@@ -1,0 +1,22 @@
+{
+  "name": "internship-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitraj99053/Internship-Task-s-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitraj99053/Internship-Task-s-/issues"
+  },
+  "homepage": "https://github.com/amitraj99053/Internship-Task-s-#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
